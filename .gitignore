@@ -1,0 +1,59 @@
+#-------------------------------------------------------------------------------
+# VisualStudio
+
+#-- User-specific files
+*.suo
+*.user
+*.sln.docstates
+
+#-- Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+#[Bb]in/
+[Oo]bj/
+*.pdb
+
+#-- Visual C++ cache files
+.vs/
+ipch/
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.cachefile
+
+#-- Others
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.obj
+*.pch
+#*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+.builds
+*.pidb
+
+#-------------------------------------------------------------------------------
+# Windows
+
+#-- image file cache
+Thumbs.db
+
+#-- Folder config file
+Desktop.ini
+folder-*.ico
+
+#-- Recycle Bin used on file shares
+$RECYCLE.BIN/
