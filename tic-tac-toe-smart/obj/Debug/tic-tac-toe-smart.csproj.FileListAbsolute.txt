@@ -1,0 +1,10 @@
+C:\Users\z003s13m\source\repos\tic-tac-toe-smart\tic-tac-toe-smart\bin\Debug\tic-tac-toe-smart.exe.config
+C:\Users\z003s13m\source\repos\tic-tac-toe-smart\tic-tac-toe-smart\bin\Debug\tic-tac-toe-smart.exe
+C:\Users\z003s13m\source\repos\tic-tac-toe-smart\tic-tac-toe-smart\bin\Debug\tic-tac-toe-smart.pdb
+C:\Users\z003s13m\source\repos\tic-tac-toe-smart\tic-tac-toe-smart\obj\Debug\tic-tac-toe-smart.csprojAssemblyReference.cache
+C:\Users\z003s13m\source\repos\tic-tac-toe-smart\tic-tac-toe-smart\obj\Debug\tic_tac_toe_smart.Form1.resources
+C:\Users\z003s13m\source\repos\tic-tac-toe-smart\tic-tac-toe-smart\obj\Debug\tic_tac_toe_smart.Properties.Resources.resources
+C:\Users\z003s13m\source\repos\tic-tac-toe-smart\tic-tac-toe-smart\obj\Debug\tic-tac-toe-smart.csproj.GenerateResource.cache
+C:\Users\z003s13m\source\repos\tic-tac-toe-smart\tic-tac-toe-smart\obj\Debug\tic-tac-toe-smart.csproj.CoreCompileInputs.cache
+C:\Users\z003s13m\source\repos\tic-tac-toe-smart\tic-tac-toe-smart\obj\Debug\tic-tac-toe-smart.exe
+C:\Users\z003s13m\source\repos\tic-tac-toe-smart\tic-tac-toe-smart\obj\Debug\tic-tac-toe-smart.pdb
