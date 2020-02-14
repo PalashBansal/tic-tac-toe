@@ -40,7 +40,8 @@ namespace tic_tac_toe_smart
         CustomButton[,] gridButton = new CustomButton[GRIDSIZE, GRIDSIZE];
         int[,] gridnum = new int[GRIDSIZE, GRIDSIZE]; // 'X' is 1 and 'O' is 2
         enum turns {X, O};
-        turns lastTurn = turns.O;
+        const turns gameStartsWith = turns.O;
+        turns lastTurn = gameStartsWith;
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -75,6 +76,7 @@ namespace tic_tac_toe_smart
                     gridnum[x, y] = 0;
                 }
             button2_AImove.Enabled = true;
+            lastTurn = gameStartsWith;
             alertUser(GameStatus.GameNotStarted);
         }
 
@@ -106,7 +108,15 @@ namespace tic_tac_toe_smart
             GameStatus whoWon = GameStatus.GameNotStarted;
             ///who won check here
             /// all has value and sum=3 means X win; sum=6 means O win, otherwise no win. All occupied but no sum=3/6 means draw
-            
+            /// user should get 'game draw' message asap, if no possible next moves can give any one win scenario. for eg-
+            /*
+            O.x
+            xoo
+            O.x
+            none of x or o can win. as 'o' can't put 'o' in both the empty places left too. so immediately put status as 'game draw'
+            and make grid disable for user input, until user presses new game button.
+            */
+            ///
             alertUser(whoWon);
         }
        
